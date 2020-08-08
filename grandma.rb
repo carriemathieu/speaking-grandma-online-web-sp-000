@@ -1,9 +1,9 @@
 # Write a speak_to_grandma method.
-phrase = gets.chomp
 
-# def speak_to_grandma(phrase)
-#  phrase = gets.chomp
-#end
+def speak_to_grandma(phrase)
+  if phrase = "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN"
+end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
@@ -15,4 +15,3 @@ phrase = gets.chomp
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
-#speak_to_grandma
