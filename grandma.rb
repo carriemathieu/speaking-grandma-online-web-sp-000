@@ -1,4 +1,5 @@
 # Write a speak_to_grandma method.
+phrase = gets.chomp
 
 def speak_to_grandma(phrase)
   phrase = gets.chomp
